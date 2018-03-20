@@ -1,0 +1,25 @@
+body, html { margin:0; padding:0; }
+h1 { text-align:center; }
+html { background-color:gray; padding-top:5px; }
+
+.logo { background-color:black; color:red; }
+.rating_logo { width:40px; }
+
+.menu { border:solid 1px; text-align:center; width:100%; }
+.menu td { border:solid 1px; width:50%; }
+
+.rec { background-color:yellow; }
+.wrapper { background-color:white; margin:auto; width:700px; }
+
+.movie { border: solid 1px; margin:5 5 0 5px; padding:0 3;  }
+
+.pagination { margin:auto; width:50%; /*	padding-left: 0px; margin-left: 0px; */ }
+.pagination li { float: left; padding-right: 10px; }
+.pagination li a.current-link { font-weight: bold;	text-decoration: none; color: #000000; }
+
+.posta { width:200px; }
+.reminder { color:red; }
+
+#mat { color:red; }
+
+li { list-style-type: none; }

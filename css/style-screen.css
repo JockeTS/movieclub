@@ -1,0 +1,308 @@
+/*--------------------------------------------------------------------------------------
+  
+  M O V I E C L U B . S E - C S S
+  
+  Filename:			style-screen.css
+  Description:		A CSS for the screen version of the web page.
+  URL:				http://www.movieclub.se
+  Authors:			Jocke, Thomas, Jesper and Marcus (Nackademin MA12)
+  
+  ====STRUCTURE=======================================================================
+  
+  Type:				Fixed (width: 800 px)
+  Layout:			Simple 1 Column-design
+  Areas:			Header (with navigation) and Content
+ 
+ --------------------------------------------------------------------------------------*/
+
+
+
+/* BODY, TYPES AND LINKS
+-------------------------------------*/
+
+body {
+	background-image: url('../img/mc_back1.jpg');
+	background-color: #000000;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: "Arial", sans-serif;
+	font-size: 10pt;
+	color: #E0E0E0;	
+	margin-top: 30px;
+}
+
+a {
+	color: #f2c700;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #E0E0E0;
+}
+
+h3 {
+	font-family: "Arial", sans-serif;
+	font-size: 13pt;
+	color: #E0E0E0;
+}
+
+h2[rel="movie-rating"], td[rel="movie-rating"] {
+	color: #E0E0E0;
+	font-family: "Arial", sans-serif;
+	
+}
+
+h2[rel="movie-title"] {
+	font-family: "Arial", sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+/* FORMS
+-------------------------------------*/  
+
+.search-form {
+	float: left;
+	width: 800px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.search-field, .login-field  {
+	 border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    font-size: 12pt;
+    border: none;
+	padding: 5px 8px;
+    width: 250px;
+}
+
+.submit-button, .recommend-button, .rate-button {
+	border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+	border:none;
+	background-color: #F2C700;
+	color: #000000;
+	cursor:pointer;
+	font-weight: bold;
+	font-size: 12pt;
+	padding: 3px;
+	height: 28px;
+}
+
+.reminder { 
+	color:red; 
+}
+
+*:focus {
+	outline: none;
+	}
+
+/* WRAPPER
+-------------------------------------*/
+
+.site-wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+}
+
+/* HEADER
+-------------------------------------*/
+
+.header {
+	width: 800px;
+}
+
+.login-nav {
+	padding-bottom: 10px;
+	text-align: right;
+	width: 800px;
+}
+
+.logo {
+	float: left;
+	width: 280px;
+	
+}
+
+#mobile-logo {
+	display: none;
+}
+
+/* NAVIGATION
+-------------------------------------*/
+
+.menu {
+	background-image: url("../img/menu_nav_back.png");
+	background-repeat: no-repeat;
+	background-position: 20px 3px;
+	float: right;
+	height: 59px;
+	text-align: right;
+	width: 500px;
+
+	
+}
+
+.nav-screen-wrapper li {
+	display: inline;
+	list-style-type: none;
+	padding-right: 35px;
+}
+
+.nav-mobile-wrapper {
+	display: none;
+}
+
+/* CONTENT
+-------------------------------------*/                
+
+.content-wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+	
+}
+
+.content-description {
+	float: left;
+	margin-bottom: 20px;
+	text-align: center;
+	width: 800px;
+	
+}
+
+.content-text {
+	float: left;
+	width: 800px;
+}
+
+/* MOVIES-CONTENT
+-------------------------------------*/ 
+
+.movies-wrapper {
+	text-align: left;
+	width: 800px;
+}
+
+.movies-poster {
+	float: left;
+	width: 100px;
+}
+
+.movies-info {
+	float: left;
+	width: 570px;
+	padding-right: 30px;
+
+}
+
+.movies-rating-wrapper {
+	float: left;
+	width: 100px;
+}
+
+.movies-rating-center-wrapper {
+	margin-left:auto;
+	margin-right: auto;
+	width: auto;
+}
+
+.movies-rating-imdb, .movies-rating-seperator, .movies-rating-movieclub {
+	padding: 0px;
+	text-align: center;
+	width: 100px;
+}
+
+.movies-seperator {	
+	float: right;
+	height: 30px;
+	padding: 10px 0 10px 0;
+	text-align: center;
+	width: 800px;
+}
+
+.pagination 
+{
+	float: left;
+	text-align: center;
+	width: 750px;
+	/*
+	padding-left: 0px;
+	margin-left: 0px;
+	*/
+}
+
+.pagination li 
+{
+	display: inline;
+	padding-right: 10px;
+}
+
+.pagination li a.current-link 
+{
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+}
+li
+{
+	list-style-type: none;
+}
+
+.recommend-button-wrapper {
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	width: 800px;
+}
+
+/* DIVS FOR INDEX AND REGISTER PAGE
+-------------------------------------*/  
+
+.index-wrapper {
+	margin-top: 70px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+}
+
+.index-logo {
+	text-align:center;
+	width: 800px;
+}
+
+.login-form, .facebook-login-button {
+	margin-top: 40px;
+	text-align: center;
+}
+
+.index-break {
+	text-align: center;
+}
+
+/* OTHER
+-------------------------------------*/  
+
+/*Border 0 för alla bilder i Internet Explorer. Andra webbläsare har detta som default redan.*/
+img { 
+	border: 0;
+}
+
+.slider { 
+	border-color: #2E2B2C;
+	background-color: #454545;
+	width: 100px; 
+}
+
+.ui-slider .ui-slider-handle {
+	border-color: #2E2B2C;
+	background-color: #f2c700;
+}
